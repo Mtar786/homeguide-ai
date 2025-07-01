@@ -1,3 +1,33 @@
+# HomeGuide AI
+
+This project is a chatbot designed to capture leads for real estate. It uses a conversational interface to gather user preferences and saves them to a Firebase database.
+
+## Key Features
+
+- **Chatbot UI:** A simple, mobile-friendly chatbot interface.
+- **Calendar Integration:** An interactive calendar for selecting move-in dates.
+- **Firebase Lead Capture:** Securely stores lead data in a Firestore database.
+
+## Technologies Used
+
+- React
+- Firebase
+- React Calendar
+
+## Installation
+
+To get started, clone this repository and run the following command to install the necessary dependencies:
+
+```bash
+npm install
+```
+
+## Future Improvements
+
+- Real-time property suggestions based on user input.
+- Integration with a real estate API for up-to-date listings.
+- User authentication and personalized dashboards.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
