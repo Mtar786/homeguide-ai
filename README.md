@@ -1,26 +1,29 @@
-# HomeGuide AI
+# HomeGuide AI 🏡🤖
 
-This project is a chatbot designed to capture leads for real estate. It uses a conversational interface to gather user preferences and saves them to a Firebase database.
+An AI-powered real estate chatbot MVP that helps agencies capture and qualify leads 24/7 through their website.
 
-## Key Features
+## ✨ Features
 
-- **Chatbot UI:** A simple, mobile-friendly chatbot interface.
-- **Calendar Integration:** An interactive calendar for selecting move-in dates.
-- **Firebase Lead Capture:** Securely stores lead data in a Firestore database.
+- 🧠 **Chatbot UI** – Conversational interface that gathers buyer preferences like location, budget, bedrooms, name, and email.
+- 📅 **Calendar Integration** – Lets users select a move-in date using a calendar (`react-calendar`).
+- ☁️ **Firebase Integration** – Stores lead information securely in Firebase.
+- 💬 **Floating Chat Widget** – Clean, mobile-friendly interface anchored to the bottom right of the site.
+- ⚡ **Quick Setup** – Runs locally with `npm start` and easy to deploy with Firebase Hosting.
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-- React
-- Firebase
-- React Calendar
+- **Frontend:** React (JavaScript)
+- **Styling:** Basic CSS (with chatbot.css)
+- **Date Picker:** `react-calendar`
+- **Backend / DB:** Firebase (via client SDK)
 
-## Installation
+## 🚀 Getting Started
 
-To get started, clone this repository and run the following command to install the necessary dependencies:
+1. **Clone the repo:**
+   ```bash
+   git clone git@github.com:your-username/homeguide-ai.git
+   cd homeguide-ai
 
-```bash
-npm install
-```
 
 ## Future Improvements
 
@@ -60,41 +63,3 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
