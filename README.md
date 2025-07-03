@@ -10,7 +10,7 @@ An AI-powered real estate chatbot MVP that helps agencies capture and qualify le
 - 💬 **Floating Chat Widget** – Clean, mobile-friendly interface anchored to the bottom right of the site.
 - ⚡ **Quick Setup** – Runs locally with `npm start` and easy to deploy with Firebase Hosting.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** React (JavaScript)
 - **Styling:** Basic CSS (with chatbot.css)
