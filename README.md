@@ -1,5 +1,4 @@
 # HomeGuide AI 🏡🤖
-
 An AI-powered real estate chatbot MVP that helps agencies capture and qualify leads 24/7 through their website.
 
 ## ✨ Features
